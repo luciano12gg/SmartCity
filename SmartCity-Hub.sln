@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCity-Hub.Dashboard", "SmartCity-Hub.Dashboard\SmartCity-Hub.Dashboard.csproj", "{DA7C9A93-699E-4DC0-B56A-EDE3795A43AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCity.Core", "SmartCity.Core\SmartCity.Core.csproj", "{BC1E150A-5A6B-401F-8765-93E238181423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCity.Tests", "SmartCity.Tests\SmartCity.Tests.csproj", "{28D7B056-451E-4DE2-92C8-FF6A52EB60F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA7C9A93-699E-4DC0-B56A-EDE3795A43AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7C9A93-699E-4DC0-B56A-EDE3795A43AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7C9A93-699E-4DC0-B56A-EDE3795A43AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7C9A93-699E-4DC0-B56A-EDE3795A43AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1E150A-5A6B-401F-8765-93E238181423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1E150A-5A6B-401F-8765-93E238181423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1E150A-5A6B-401F-8765-93E238181423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1E150A-5A6B-401F-8765-93E238181423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D7B056-451E-4DE2-92C8-FF6A52EB60F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D7B056-451E-4DE2-92C8-FF6A52EB60F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D7B056-451E-4DE2-92C8-FF6A52EB60F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D7B056-451E-4DE2-92C8-FF6A52EB60F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
