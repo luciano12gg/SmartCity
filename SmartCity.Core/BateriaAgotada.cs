@@ -1,8 +1,8 @@
 ﻿namespace SmartCity.Core;
 
-public class BateriaAgotada : Exception
+public class BateriaAgotadaException : Exception
 {
-    public BateriaAgotada() : base("La batería se ha agotado.") { }
+    public BateriaAgotadaException() : base("La batería se ha agotado.") { }
 
-    public BateriaAgotada(string mensaje) : base(mensaje) { }
+    public BateriaAgotadaException(string mensaje) : base(mensaje) { }
 }

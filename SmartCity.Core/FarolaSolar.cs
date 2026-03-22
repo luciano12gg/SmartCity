@@ -1,6 +1,6 @@
 ﻿namespace SmartCity.Core;
 
-public abstract class FarolaSolar : DispositivoIoT
+public class FarolaSolar : DispositivoIoT
 {
     private const int CONSUMO_FAROLA = 1;
 
@@ -8,13 +8,6 @@ public abstract class FarolaSolar : DispositivoIoT
     {
         
     }
-    
-    public override void RealizarDiagnostico()
-    {
-        string estadoLuz = Estado ? "Encendida (Noche)" : "Apagada (Día)";
-        Console.WriteLine($"[Farola Solar ID: {Id}] Estado: {Estado} | Batería: {Bateria:P0}");
-    }
-    
     public void ActualizarEstado(int hora)
     {
         if (hora > 18 || hora < 7)
@@ -30,7 +23,12 @@ public abstract class FarolaSolar : DispositivoIoT
         if (Bateria < 0)
         {
             Bateria = 0;
-            throw new BateriaAgotada($"La Farola {Id} se ha quedado sin energía.");
+            throw new BateriaAgotadaException($"La Farola {Id} se ha quedado sin energía.");
         }
+    }
+    public override void RealizarDiagnostico()
+    {
+        string estadoLuz = Estado ? "Encendida (Noche)" : "Apagada (Día)";
+        Console.WriteLine($"[Farola Solar ID: {Id}] Estado: {Estado} | Batería: {Bateria}%");
     }
 }

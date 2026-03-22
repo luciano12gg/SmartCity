@@ -4,10 +4,19 @@ namespace SmartCity.Core;
 
 public class ProcesadorDatos<T>
 {
-    public void Procesar(T datos)
-    {
-        Debug.Assert(datos != null, "El dato nunca debe ser nulo.");
+    private Queue<T> colaDatos = new Queue<T>();
         
-        Console.WriteLine($"Procesando dato de tipo: {typeof(T).Name}");
+    public void EncolarDato(T dato)
+    {
+        Debug.Assert(dato != null, "El dato nunca debe ser nulo.");
+        colaDatos.Enqueue(dato);
+    } 
+    public void ProcesarTodo()
+    {
+        while (colaDatos.Count > 0)
+        {
+            T dato = colaDatos.Dequeue();
+            Console.WriteLine($"Procesando dato de tipo: {typeof(T).Name} -> {dato}");
+        }
     }
 }

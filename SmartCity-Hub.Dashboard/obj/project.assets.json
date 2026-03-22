@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\janto\\.nuget\\packages\\": {},
+    "C:\\Users\\luchi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\janto\\RiderProjects\\SmartCity-Hub\\SmartCity-Hub\\SmartCity-Hub.Dashboard\\SmartCity-Hub.Dashboard.csproj",
+      "projectUniqueName": "C:\\Users\\luchi\\RiderProjects\\SmartCity-Hub\\SmartCity-Hub.Dashboard\\SmartCity-Hub.Dashboard.csproj",
       "projectName": "SmartCity-Hub.Dashboard",
-      "projectPath": "C:\\Users\\janto\\RiderProjects\\SmartCity-Hub\\SmartCity-Hub\\SmartCity-Hub.Dashboard\\SmartCity-Hub.Dashboard.csproj",
-      "packagesPath": "C:\\Users\\janto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\janto\\RiderProjects\\SmartCity-Hub\\SmartCity-Hub\\SmartCity-Hub.Dashboard\\obj\\",
+      "projectPath": "C:\\Users\\luchi\\RiderProjects\\SmartCity-Hub\\SmartCity-Hub.Dashboard\\SmartCity-Hub.Dashboard.csproj",
+      "packagesPath": "C:\\Users\\luchi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luchi\\RiderProjects\\SmartCity-Hub\\SmartCity-Hub.Dashboard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\janto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\luchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
